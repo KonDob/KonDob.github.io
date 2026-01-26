@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kostiantyn Dobrovolskyi — Python Engineer</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #38bdf8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(120deg, #020617, #0f172a);
+      color: var(--text);
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    header {
+      display: grid;
+      gap: 12px;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: white;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      color: var(--accent);
+    }
+
+    p {
+      line-height: 1.6;
+      color: var(--muted);
+    }
+
+    .badge {
+      display: inline-block;
+      background: #1f2933;
+      padding: 6px 12px;
+      border-radius: 20px;
+      margin: 4px;
+      font-size: 0.9rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(17,24,39,0.85);
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    .job {
+      margin-bottom: 18px;
+    }
+
+    .job strong {
+      color: white;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <h1>Kostiantyn Dobrovolskyi</h1>
+      <p><strong>Python Software Development Engineer</strong></p>
+      <p>Sofia, Bulgaria · 9+ years in IT · QA → Full-Stack Engineer</p>
+      <p>
+        📧 <a href="mailto:konstantin.dobro@gmail.com">konstantin.dobro@gmail.com</a> · 
+        📞 BG: +359 879 422 948 · 
+        Telegram / Viber: +38 063 602 63 61
+      </p>
+    </header>
+
+    <section class="grid">
+
+      <div class="card">
+        <h2>Summary</h2>
+        <p>
+          Software Development Engineer with over 9 years of commercial experience across
+          QA Automation and Full-Stack Development. I design, build and maintain scalable,
+          high-quality systems. Strong background in testing helps me deliver robust,
+          reliable products with engineering and user perspectives combined.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Languages</h2>
+        <p>🇺🇦 Ukrainian — Native</p>
+        <p>🇧🇬 Bulgarian — A2</p>
+        <p>🇬🇧 English — B2</p>
+      </div>
+
+      <div class="card">
+        <h2>Tech Stack</h2>
+        <div>
+          <span class="badge">Python</span>
+          <span class="badge">FastAPI</span>
+          <span class="badge">Django</span>
+          <span class="badge">Flask</span>
+          <span class="badge">Chalice</span>
+          <span class="badge">React</span>
+          <span class="badge">AWS</span>
+          <span class="badge">PostgreSQL</span>
+          <span class="badge">MongoDB</span>
+          <span class="badge">Docker</span>
+          <span class="badge">pytest</span>
+          <span class="badge">CI/CD</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Experience</h2>
+
+        <div class="job">
+          <strong>RingCentral Bulgaria — Python SDET</strong><br/>
+          <small>Apr 2025 — Jan 2026</small>
+          <p>
+            Developed Python automated tests using custom frameworks, integrated CI/CD,
+            improved coverage, collaborated with product and engineering teams.
+          </p>
+        </div>
+
+        <div class="job">
+          <strong>Nuovo Photography — Python Full-Stack Engineer</strong><br/>
+          <small>Jan 2026</small>
+          <p>
+            Built backend services with AWS Chalice and frontend features with React.
+            Participated in API design and feature delivery.
+          </p>
+        </div>
+
+        <div class="job">
+          <strong>Intellias — QA Automation Engineer</strong><br/>
+          <small>Nov 2020 — Dec 2023</small>
+          <p>
+            Developed API and UI tests for IoT and Big Data products with pytest, AWS,
+            Datadog, and custom test frameworks.
+          </p>
+        </div>
+
+        <div class="job">
+          <strong>Luxoft — QA Automation / DB Engineer</strong><br/>
+          <small>2019 — 2020</small>
+          <p>
+            Worked on e-commerce and automotive projects, created e2e, API, UI tests,
+            DB tools and automation pipelines.
+          </p>
+        </div>
+
+        <div class="job">
+          <strong>Digitally Inspired — QA Automation Engineer</strong><br/>
+          <small>Dec 2018 — Sep 2019</small>
+        </div>
+
+      </div>
+
+      <div class="card">
+        <h2>Education</h2>
+        <p>Odessa National Polytechnic University — Electro-engineering</p>
+        <p>Odessa College of Economics and Trade — Technical Education</p>
+      </div>
+
+    </section>
+
+    <footer>
+      <p>© Kostiantyn Dobrovolskyi · Python Engineer</p>
+    </footer>
+
+  </div>
+</body>
+</html>
